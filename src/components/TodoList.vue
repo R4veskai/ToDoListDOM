@@ -7,7 +7,7 @@
             <input 
               v-model="newTask" 
               @keyup.enter="addTask" 
-              placeholder="Че надо сделать..."
+              placeholder="Что надо сделать..."
               class="task-input"
             >
        
@@ -54,7 +54,7 @@
     </ul>
     
     <div v-if="tasks.length === 0" class="empty-message">
-      Нет задач. Добавь её!
+      Нет задач, добавь её!
     </div>
   </div>
 </template>
